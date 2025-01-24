@@ -10,24 +10,59 @@
             margin: 0;
             padding: 0;
             background-color: #f4f4f4;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            height: 100vh;
+        }
+        nav {
+            background-color: #333;
+            color: #fff;
+            padding: 10px;
+            text-align: center;
+        }
+        nav a {
+            color: #fff;
+            margin: 0 15px;
+            text-decoration: none;
         }
         .container {
-            text-align: center;
+            max-width: 800px;
+            margin: 20px auto;
             background-color: #fff;
             padding: 20px;
             border-radius: 8px;
             box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
         }
+        footer {
+            text-align: center;
+            padding: 10px;
+            background-color: #333;
+            color: #fff;
+            position: fixed;
+            width: 100%;
+            bottom: 0;
+        }
     </style>
 </head>
 <body>
+    <nav>
+        <a href="#home">Home</a>
+        <a href="#features">Features</a>
+        <a href="#contact">Contact</a>
+    </nav>
     <div class="container">
         <h1>Welcome to the ChatGPT Operator Demo</h1>
         <p>This website was created using the ChatGPT Operator's capabilities to demonstrate the creation and hosting of a public website on GitHub Pages.</p>
+        <p>Created by <a href="https://linktr.ee/julianjoseph" target="_blank">Julian Joseph</a></p>
+        <section id="features">
+            <h2>Features</h2>
+            <p>Explore the capabilities of the ChatGPT Operator, including:</p>
+            <ul>
+                <li>Creating and managing repositories</li>
+                <li>Editing and committing files</li>
+                <li>Deploying websites on GitHub Pages</li>
+            </ul>
+        </section>
     </div>
+    <footer>
+        <p>ChatGPT Operator Demo &copy; 2025</p>
+    </footer>
 </body>
 </html>
